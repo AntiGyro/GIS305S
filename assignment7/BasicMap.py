@@ -55,11 +55,11 @@ if __name__ == "__main__":
     my_map = BasicMap("-105.2705", "40.015", "0.5", "0.25")
     my_map.describe()
 
-    try:
-        print('Calculating bounds...')
-        my_map.get_bounds()
-    except TypeError:
-        print('Error: in get_bounds - input values must be numbers!')
+
+    print('Calculating bounds...')
+    my_map.get_bounds()
+
+    print('Error: in get_bounds - input values must be numbers!')
 
 print("\nThe try and except already seemed to be added to the fork, I think. At least, it was here when I opened it up.\n"
 "I added this line so I had changes to commit that you could see.\nThere's a chance I misunderstood, in which case I apologize.")
