@@ -1,0 +1,6 @@
+remote_url: https://docs.google.com/spreadsheets/d/e/2PACX-1vRpxExaRsZhlNPheyRhph6qY6GUMjpEmiXrC0d8nJKYG_BbnL98VuUIhtpkVuBhKwX5R78Rl0KDX6u8/pub?output=csv
+proj_dir: C:\Users\natha\Documents\School\Nathan\Fall 2023\ProgForGis\Lab1\
+data_format: csv
+geocoder_prefix_url: 'https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address='
+geocoder_suffix_url: '&benchmark=2020&format=json'
+
