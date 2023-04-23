@@ -3,4 +3,10 @@ proj_dir: C:\Users\natha\Documents\School\Nathan\Fall 2023\ProgForGis\Lab1\
 data_format: csv
 geocoder_prefix_url: 'https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address='
 geocoder_suffix_url: '&benchmark=2020&format=json'
+buffer_layer_list:
+  - Mosquito_Larval_Sites
+  - Wetlands
+  - Lakes_and_Reservoirs___Boulder_County
+  - OSMP_Properties
+
 
