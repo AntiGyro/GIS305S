@@ -41,5 +41,7 @@ The config file should contain the following keys and values:
     buffer_layer_list: A list of layers that will be used for buffering analysis.
 
 Run finalproject.py
+
 Input buffer distances for each layer.
+
 Input a sub-title name for the exported map.
