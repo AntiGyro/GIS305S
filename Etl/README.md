@@ -30,7 +30,7 @@ Google Sheets form into an ArcGIS feature class.
 - csv library
 - ArcPy library (ArcGIS Pro Python environment is recommended)
 
-****Set up the configuration file with the required parameters for the ETL process. ****
+****Set up the configuration file with the required parameters for the ETL process.****
 
 The config file should contain the following keys and values:
 
