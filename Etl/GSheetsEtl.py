@@ -1,13 +1,3 @@
-"""
-This module contains the GSheetsEtl class, which inherits from the SpatialEtl superclass and provides a specific
-implementation for working with Google Sheets data. The GSheetsEtl class is designed to extract address data from a
-Google Sheets form, transform it by adding city, state, and geocoded coordinates, and load the transformed data into
-an ArcGIS feature class. This class can be used to process spatial data from Google Sheets and integrate it with other
-GIS data sources.
-
-"""
-
-
 import requests
 import csv
 import arcpy
@@ -17,15 +7,15 @@ from Etl.SpatialEtl import SpatialEtl
 
 class GSheetsEtl(SpatialEtl):
     """
-    A class to represent the ETL (Extract, Transform, Load) process for Google Sheets data.
+    GSheetsEtl performs an extract, transform and load process using a url to a google spreadsheet.
+    The spreadsheet must contain an address and zipcode column.
+
+    Parameters:
+    config_dict (dictionary): A dictionary containing a remote_url key to the google spreadsheet
+    and web geocoding service
     """
 
     def __init__(self, config_dict):
-        """
-        Initializes the object with a configuration dictionary.
-        :param config_dict: A dictionary containing configuration settings
-        :return: None
-        """
         self.config_dict = config_dict
 
     def extract(self):
