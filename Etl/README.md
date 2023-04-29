@@ -30,8 +30,9 @@ Google Sheets form into an ArcGIS feature class.
 - csv library
 - ArcPy library (ArcGIS Pro Python environment is recommended)
 
-****Set up the configuration file with the required parameters for the ETL process. 
-The config file should contain the following keys and values:****
+****Set up the configuration file with the required parameters for the ETL process. ****
+
+The config file should contain the following keys and values:
 
 remote_url: The URL of the Google Sheets form containing the addresses.
 proj_dir: The project directory where the input and output files should be stored.
@@ -39,7 +40,7 @@ geocoder_prefix_url: The prefix URL of the geocoding service to use for address 
 geocoder_suffix_url: The suffix URL of the geocoding service to use for address geocoding.
 buffer_layer_list: A list of layers that will be used for buffering analysis.
 
-****Run finalproject.py ****
+****Run finalproject.py****
 
 ****Input buffer distances for each layer.****
 
