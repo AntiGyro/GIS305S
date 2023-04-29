@@ -8,7 +8,6 @@ coordinates, and loads the transformed data into an ArcGIS feature class. This e
 of spatial data from Google Sheets with other GIS data sources.
 The output from this process is a pdf showing the areas to spray and the target addresses within those areas.
 
-Modules
 The project consists of the following modules:
 
     finalproject.py:
@@ -41,5 +40,7 @@ The config file should contain the following keys and values:
     buffer_layer_list: A list of layers that will be used for buffering analysis.
 
 Run finalproject.py
+
 Input buffer distances for each layer.
+
 Input a sub-title name for the exported map.
